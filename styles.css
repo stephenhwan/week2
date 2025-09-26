@@ -1,0 +1,91 @@
+/* Very Basic Calculator Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+}
+
+.container {
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    margin-right: 5px;
+}
+
+.input-group input[type="text"] {
+    width: 80px;
+    padding: 2px 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+}
+
+.operation-group {
+    margin: 15px 0;
+}
+
+.operation-group p {
+    margin: 5px 0;
+    font-weight: normal;
+}
+
+.radio-group {
+    margin: 10px 0;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.submit-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    padding: 5px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Result Styles */
+.result-box {
+    margin-top: 20px;
+}
+
+.result {
+    background-color: #90EE90;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    color: black;
+}
+
+.error-message {
+    background-color: #FFB6C1;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    color: black;
+}
+
+.back-btn {
+    color: blue;
+    text-decoration: underline;
+}
+
+.back-btn:hover {
+    color: red;
+}
